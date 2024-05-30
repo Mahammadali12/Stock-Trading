@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Purchase
+{% endblock %}
+
+{% block main %}
+    <p>{{name}} ID:{{user_id}} made {{total | usd}} purchase from {{symbol}}</p>
+{% endblock %}
